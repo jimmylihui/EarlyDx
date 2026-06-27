@@ -1,5 +1,13 @@
 # EarlyDx: A Benchmark for Open-Vocabulary Admission Diagnosis with LLMs
 
+**Code:** https://github.com/jimmylihui/EarlyDx
+**Dataset (credentialed):** https://huggingface.co/datasets/Jiahuili/EarlyDx-data
+**Models (credentialed):** https://huggingface.co/Jiahuili/EarlyDx-models
+
+> The dataset and fine-tuned models are derived from MIMIC-IV and hosted under restricted
+> access. They are available only to users credentialed for MIMIC-IV (PhysioNet); see the MIMIC
+> Data Use Agreement. This repository contains code only (no patient data).
+
 Code to reproduce **EarlyDx**. The benchmark is derived from **MIMIC-IV** (ED + hosp + note
 modules); per the PhysioNet Credentialed Health Data License, **we do not redistribute any
 MIMIC-derived data or models here**. Credentialed users can regenerate the full dataset from
