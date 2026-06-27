@@ -1,0 +1,11 @@
+# NEVER commit secrets or MIMIC-derived data
+or_keys.json
+*.jsonl
+*.csv
+*.parquet
+cohort_*.json
+*.safetensors
+*.pt
+*.pdf
+*.png
+__pycache__/

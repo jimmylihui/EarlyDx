@@ -1,0 +1,7 @@
+torch>=2.4
+transformers==5.13.0.dev0
+deepspeed>=0.15
+accelerate
+httpx
+pandas
+matplotlib
