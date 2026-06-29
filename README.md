@@ -77,3 +77,13 @@ reproducibility.
 ## License / Citation
 Code: MIT. Data & models: credentialed access via PhysioNet (MIMIC DUA).
 Please cite the EarlyDx paper and MIMIC-IV.
+
+## Reproduction assets
+- `cache/judge_cache.jsonl` — hash-keyed cached LLM-judge outputs (no patient text).
+- `MODELS.md` — exact versions / access dates of all evaluated models.
+- The fixed train/test split (`subject-info.csv`) and evidence verdicts are released with the
+  dataset on PhysioNet (credentialed), as they contain MIMIC-derived identifiers/text.
+
+## Data & model availability
+Code is public here. The MIMIC-derived dataset and fine-tuned models are available to
+MIMIC-IV-credentialed users via PhysioNet, per the Data Use Agreement.

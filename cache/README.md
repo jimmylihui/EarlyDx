@@ -1,0 +1,1 @@
+judge_cache.jsonl: hash-keyed cached LLM-judge outputs ({k: md5(sorted(gold)+sorted(pred)), m: matched_pairs}). Contains no patient text; lets credentialed users reproduce evaluation without re-querying the judge.

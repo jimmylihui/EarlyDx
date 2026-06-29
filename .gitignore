@@ -9,3 +9,4 @@ cohort_*.json
 *.pdf
 *.png
 __pycache__/
+!cache/judge_cache.jsonl
