@@ -1,0 +1,38 @@
+{
+  "verifier": {
+    "provider": "local",
+    "base_url": "http://127.0.0.1:8000/v1",
+    "model": "MiniMax-M3",
+    "checkpoint": "<actual local checkpoint path or model repository>",
+    "revision": "<immutable checkpoint revision>"
+  },
+  "teacher": {
+    "provider": "local",
+    "base_url": "http://127.0.0.1:8001/v1",
+    "model": "MiMo-V2.5",
+    "checkpoint": "<actual local checkpoint path or model repository>",
+    "revision": "<immutable checkpoint revision>"
+  },
+  "judge": {
+    "provider": "local",
+    "base_url": "http://127.0.0.1:8002/v1",
+    "model": "Qwen3.5-27B",
+    "checkpoint": "<actual local checkpoint path or model repository>",
+    "revision": "<immutable checkpoint revision>"
+  },
+  "gpt-5.5": {
+    "provider": "azure",
+    "endpoint": "https://<resource>.openai.azure.com",
+    "deployment": "<Azure deployment name>",
+    "model": "gpt-5.5",
+    "revision": "<model version of the Azure deployment>",
+    "api_key_env": "AZURE_OPENAI_API_KEY"
+  },
+  "claude-opus-4.8": {
+    "provider": "anthropic",
+    "model": "claude-opus-4-8",
+    "revision": "<exact provider model revision>",
+    "anthropic_version": "2023-06-01",
+    "api_key_env": "ANTHROPIC_API_KEY"
+  }
+}

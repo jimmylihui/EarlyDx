@@ -1,0 +1,20 @@
+{
+  "systems": [
+    {
+      "name": "GPT-5.5 (Azure OpenAI)",
+      "group": "Zero-shot, general",
+      "input_variant": "full",
+      "files": [
+        "results/predictions/azure-gpt55.jsonl"
+      ]
+    },
+    {
+      "name": "Claude Opus 4.8 (Anthropic API)",
+      "group": "Zero-shot, general",
+      "input_variant": "full",
+      "files": [
+        "results/predictions/anthropic-opus48.jsonl"
+      ]
+    }
+  ]
+}

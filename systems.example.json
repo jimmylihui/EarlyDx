@@ -1,0 +1,10 @@
+{
+  "systems": [
+    {
+      "name": "Post-trained model",
+      "group": "Post-trained",
+      "input_variant": "full",
+      "files": ["results/predictions/shard*.jsonl"]
+    }
+  ]
+}

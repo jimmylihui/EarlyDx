@@ -1,0 +1,20 @@
+# Local credentials, restricted data, trained weights and generated outputs
+backends.json
+systems.json
+or_keys.json
+.env
+.venv/
+data/
+models/
+results/
+*.jsonl
+*.csv
+*.parquet
+*.safetensors
+*.pt
+*.bin
+*.pdf
+*.png
+*.meta.json
+__pycache__/
+.pytest_cache/
